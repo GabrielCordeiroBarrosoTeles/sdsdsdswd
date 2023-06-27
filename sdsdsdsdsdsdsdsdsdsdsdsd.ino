@@ -24,7 +24,7 @@ bool isRainy = false;
 int proximityCount = 0;
 float weightValue = 0.0;
 bool ledStatus = false;
-float calibration_factor = 740;
+float calibration_factor = -353333;
 
 // Objeto NewPing
 NewPing sonar(ultrasonicTrigPin, ultrasonicEchoPin);
